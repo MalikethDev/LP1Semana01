@@ -7,6 +7,20 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            // Add the following variables
+            double xx = 1.23456;
+            int ii = 19;
+
+            // Print xx as a real number with 2 decimal places
+            Console.WriteLine(xx.ToString("F2"));
+            // Print xx as a percentage with 1 decimal place
+            Console.WriteLine(xx.ToString("P1"));
+
+            // Print ii as a hexadecimal number
+            Console.WriteLine(ii.ToString("X"));
+            // Print ii as a currency
+            Console.WriteLine(ii.ToString("C"));
+
             // Add some string variables
             // Test multiple escape and Unicode characters
             string s = "Um tab\t e um copyright\u03A9";
