@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace VariousTypes
 {
@@ -37,8 +38,8 @@ namespace VariousTypes
             Console.WriteLine(real1);
             Console.WriteLine(real2);
             Console.WriteLine(real3);
-            Console.WriteLine(big);
-            Console.WriteLine(small);
+            Console.WriteLine("Is 5 smaller than 2?" + big);
+            Console.WriteLine("Is 2 bigger than 1?" + small);
         }
     }
 }
