@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Contracts;
 
 namespace ManyStrings
 {
@@ -17,6 +18,30 @@ namespace ManyStrings
             Console.WriteLine(s2);
             Console.WriteLine(s3);
             Console.WriteLine(s4);
+
+            // Add more string variables by concatenating them
+            string s5 = "Hello";
+            string s6 = "World";
+            string s7 = s5 + " " + s6;
+            Console.WriteLine(s7);
+
+            string s8 = 2 + 2 + " = 2 + 2";
+            Console.WriteLine(s8);
+
+            string s9 = "ABC " + 123 + " Primeiras letras e números";
+            Console.WriteLine(s9);
+
+            // Add string variables by using string interpolation
+            string s10 = "Hello";
+            string s11 = "World";
+            string s12 = $"{s10} {s11}";
+            Console.WriteLine(s12);
+
+            string s13 = $"Valor de 2 + 2 é {2 + 2}";
+            Console.WriteLine(s13);
+
+            string s14 = $"ABC {1 + 1 + 1} Primeiras tres letras";
+            Console.WriteLine(s14);
         }
     }
 }
