@@ -22,6 +22,11 @@ namespace VariousTypes
             bool m = true;
             string n = "Hello";
 
+            // Create variable char with different unicode values
+            char o = '\u2764'; // heart symbol
+            char p = '\u2620'; // skull symbol
+            char q = '\u2603'; // snowman symbol
+
             // Display the values of the variables
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -37,6 +42,9 @@ namespace VariousTypes
             Console.WriteLine(l);
             Console.WriteLine(m);
             Console.WriteLine(n);
+            Console.WriteLine(o);
+            Console.WriteLine(p);
+            Console.WriteLine(q);
         }
     }
 }
