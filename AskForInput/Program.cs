@@ -17,6 +17,9 @@ namespace AskForInput
 
             // Convert the string into a float and store it in another variable
             float realNumber = float.Parse(Console.ReadLine());
+
+            // Present the sum of the two numbers requested
+            Console.WriteLine($"Adding both numbers: {number + realNumber}");
         }
     }
 }
