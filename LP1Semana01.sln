@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyStrings", "ManyStrings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskForInput", "AskForInput\AskForInput.csproj", "{3B206BF7-3FBD-4EF0-9AB0-9D0124A10953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percentagem", "Percentagem\Percentagem.csproj", "{118B22A5-7099-45EA-8040-0EA9C6BDB96A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{3B206BF7-3FBD-4EF0-9AB0-9D0124A10953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B206BF7-3FBD-4EF0-9AB0-9D0124A10953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B206BF7-3FBD-4EF0-9AB0-9D0124A10953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118B22A5-7099-45EA-8040-0EA9C6BDB96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118B22A5-7099-45EA-8040-0EA9C6BDB96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118B22A5-7099-45EA-8040-0EA9C6BDB96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118B22A5-7099-45EA-8040-0EA9C6BDB96A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
